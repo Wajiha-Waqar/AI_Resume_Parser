@@ -18,3 +18,14 @@ An AI-powered Applicant Tracking System (ATS) that matches resumes with job desc
 - PDF & DOCX parsing
 
 ## 📂 Project Structure
+ats-resume-matcher/
+│── app.py
+│── model.pkl
+│── vectorizer.pkl
+│── requirements.txt
+│── README.md
+
+## ▶️ How to Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
