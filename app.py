@@ -6,6 +6,8 @@ import pdfplumber
 from docx import Document
 import numpy as np
 from scipy.sparse import hstack, csr_matrix
+import nltk
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
